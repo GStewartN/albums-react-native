@@ -2,11 +2,11 @@
 
 // Import a library to help create a component
 import React from 'react';
-import { Text } from 'react-native';
+import Header from './src/components/Header';
 
 // Create component
-export default App = () => (  // Now exporting to index.js
-    <Text>Some Text</Text>
+export default App = () => (  // Now exporting to anywhere that imports
+    <Header headerText={'Albums'} />
   );
 
 // Render it to the device
