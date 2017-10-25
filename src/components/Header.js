@@ -1,9 +1,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
- const Header = (props) => {
-
-   const { textStyle, viewStyle } = styles;
+const Header = (props) => {
+  const { textStyle, viewStyle } = styles;
 
   return (
     <View style={viewStyle}>
@@ -21,7 +20,7 @@ const styles = {
     paddingTop: 15,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.5,
+    shadowOpacity: 0.2,
     elevation: 2,
     position: 'relative'
   },
