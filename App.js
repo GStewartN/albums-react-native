@@ -1,13 +1,11 @@
-// Code for IOS
-
-// Import a library to help create a component
 import React from 'react';
+import { View } from 'react-native';
 import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
-// Create component
-export default App = () => (  // Now exporting to anywhere that imports
+export default App = () => (
+  <View>
     <Header headerText={'Albums'} />
-  );
-
-// Render it to the device
-// AppRegistry.registerComponent('albums', () => App); This is now being imported from index.js
+    <AlbumList />
+  </View>
+);

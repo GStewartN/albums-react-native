@@ -1,8 +1,6 @@
-// Import libraries
 import React from 'react';
 import { Text, View } from 'react-native';
 
-// Make component
  const Header = (props) => {
 
    const { textStyle, viewStyle } = styles;
@@ -31,5 +29,5 @@ const styles = {
     fontSize: 20
   }
 };
-// Make comp available to rest of app
+
 export default Header;
